@@ -2,17 +2,6 @@
 
 SA-MP / open.mp Launcher & Anti-Cheat Solution
 
-## Structure
-
-zenith/
-├── api/          → Rust + Axum (Backend API)
-├── launcher/     → C# + WPF (PC Launcher)
-├── anticheat/    → Rust (Anti-Cheat)
-├── server/       → Pawn (open.mp gamemode)
-├── admin/        → React + Tailwind (Web Admin)
-├── bot/          → discord.js (Discord Bot)
-└── tools/        → Rust CLI (Manifest Generator)
-
 ## Stack
 
 - API        : Rust + Axum + SQLx + Redis
